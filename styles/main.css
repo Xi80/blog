@@ -1,6 +1,6 @@
 @font-face {
   font-family: "myFirstFont";
-  src: url("/fonts/IBMPlexSansJP-Regular.otf");
+  src: url("/fonts/IBMPlexSansJP-Regular.woff2");
 }
 * {
   box-sizing: border-box;
@@ -72,18 +72,12 @@ input[type="checkbox"] {
   width: 20px;
   height: 15px;
 }
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-@font-face {
-  font-family: "myFirstFont";
-  src: url("/fonts/IBMPlexSansJP-Light.otf");
-}
 header {
   display: block;
   box-shadow: 0 0 3px rgba(0,0,0,0.1);
   height: 65px;
   margin-top: -5px;
   line-height: 65px;
-  font-family: 'Montserrat Light';
 }
 header .title {
   float: left;
@@ -97,9 +91,7 @@ header .site-nav {
 }
 header .site-nav .menu {
   display: block;
-  font-family: "myFirstFont";
   position: relative;
-  font-family: "myFirstFont";
   padding-left: 0;
   padding-right: 0px;
 }
