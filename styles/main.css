@@ -71,7 +71,7 @@ input[type="checkbox"] {
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @font-face {
   font-family: "myFirstFont";
-  src: url("/fonts/IBMPlexSansJP-Light");
+  src: url("/fonts/IBMPlexSansJP-Light.otf");
 }
 header {
   display: block;
