@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: url("/fonts/IBMPlexSansJP-Light.otf");
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,7 +32,7 @@ ul {
 body {
   color: #34495e;
   line-height: 2.4;
-  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  font-family: "myFirstFont", sans-serif;
   font-weight: normal;
 }
 .text-underline {
