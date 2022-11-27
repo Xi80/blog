@@ -113,10 +113,6 @@ header:after {
     display: none;
   }
 }
-@font-face {
-  font-family: "myFirstFont";
-  src: url("/fonts/IBMPlexSansJP-Regular.otf");
-}
 .posts-wrapper {
   margin-top: 20px;
   border-radius: 8px;
@@ -130,7 +126,6 @@ header:after {
 .post-title {
   font-size: 38px;
   color: #555;
-  font-family: 'myFirstFont';
 }
 .sub {
   color: #aaa;
